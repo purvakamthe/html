@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Purva Kamthe - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            /* Using a clean, professional abstract background */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                              url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* Making the cards slightly transparent for a modern look */
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Information</a>
+    </div>
+</nav>
+ 
+<div class="container mt-5">
+    <div class="row">
+ 
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Personal Info</h5>
+                    <p class="card-text ">Name :- Purva Kamthe</p>
+                    <p class="card-text ">Age :- 20 yrs</p>
+                    <p class="card-text ">DOB :- 27 Nov 2005</p>
+                    <button onclick="window.location.href='https://www.google.com';" class="btn btn-primary w-100">More Details</button>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Educational Details</h5>
+                    <p class="card-text ">Currently studying :- Computer Enginearing (2nd yr )</p>
+                    <p class="card-text ">12th Percentage :- 67 %</p>
+                    <p class="card-text ">10th Percentage :- 87 %</p>
+                    <button onclick="window.location.href='https://www.google.com';" class="btn btn-success w-100">View More</button>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Contact Info</h5>
+                    <p class="card-text">Mobile no :- 900000009</p>
+                    <p class="card-text">Insta id :- zyx.m</p>
+                    <p class="card-text">Email id :- xyz@gmail.com</p>
+                    <button onclick="window.location.href='https://www.google.com';" class="btn btn-warning">More Details</button>
+
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+</div>
